@@ -1,4 +1,99 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="薛子豪"><title>odorajbotoj's blog</title><meta name="description" content="不要哀求, 学会进取; 若是如此, 终有所获."><meta name="keywords" content="Blog,博客,Hexo,odorajbotoj"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="shortcut icon" type="image/x-icon" href="/images/odorajbotoj64w.png"><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/blog_basic.css"><link rel="stylesheet" href="css/font-awesome.min.css"><link rel="stylesheet" href="css/insight.css"><link rel="stylesheet" href="css/search.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><script src="js/jquery.js"></script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="page-top animated fadeInDown"><div class="nav"><li> <a class="current" href="/">首页</a></li><li> <a href="/archives">归档</a></li><li> <a href="/tags">标签</a></li></div><div class="information"><div class="nav_right_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)" style="display:none;"> </a></li><li><a class="fa fa-search" onclick="openWindow();"></a></li></div><div class="avatar"><img src="/images/odorajbotoj512w.png"></div></div></div><div class="sidebar animated fadeInDown"><div class="sidebar-top"><div class="logo-title"><div class="title"><img src="/images/odorajbotoj1024w.png" style="width:220px;" alt="favicon"><h3 title=""><a href="/">odorajbotoj's blog</a></h3><div class="description"><p>不要哀求, 学会进取; 若是如此, 终有所获.</p></div></div><ul class="social-links"><li><a target="_blank" rel="noopener" href="https://github.com/odorajbotoj"><i class="fa fa-github"></i></a></li><li><a href="mailto:odoraj_botoj@tom.com"><i class="fa fa-envelope"></i></a></li></ul></div></div><div class="footer"><div class="p"> <span> 全站CC-BY-SA-3.0 </span><i class="fa fa-star"></i><span> 薛子豪</span></div><div class="by_farbox"><span>Powered by </span><a href="https://hexo.io/zh-cn/" target="_blank">Hexo </a><span> & </span><span>Anatolo </span></div><div class="beian"></div></div></div><div class="main"><div class="autopagerize_page_element"><div class="content"><div class="post animated fadeInDown"><div class="post-title"><h3><a href="2023/05/28/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E5%88%B6%E4%BD%9C%20NOI%20Linux%202%20%E8%A3%81%E5%88%87%E7%89%88/">如何优雅地制作 NOI Linux 2 裁切版</a></h3></div><div class="post-content"><div class="card"><p><h1 id="如何优雅地制作-NOI-Linux-2-裁切版"><a href="#如何优雅地制作-NOI-Linux-2-裁切版" class="headerlink" title="如何优雅地制作 NOI Linux 2 裁切版"></a>如何优雅地制作 NOI Linux 2 裁切版</h1><h2 id="导言"><a href="#导言" class="headerlink" title="导言"></a>导言</h2><p>打OI的时候被蒋炎岩博士写的JSOI系统震撼到了(膜)。老早就有这个想法了，正好蒋炎岩博士把自己的操作系统原理课分享到了哔哩哔哩上，又在知乎上贴出了自己<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/619237809">制作JSOI-Linux的历程</a>。我简单地学习了下，准备自己也搭建一个类似的系统。</p>
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="薛子豪"><title>odorajbotoj's blog</title><meta name="description" content="不要哀求, 学会进取; 若是如此, 终有所获."><meta name="keywords" content="Blog,博客,Hexo,odorajbotoj"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="shortcut icon" type="image/x-icon" href="/images/odorajbotoj64w.png"><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/blog_basic.css"><link rel="stylesheet" href="css/font-awesome.min.css"><link rel="stylesheet" href="css/insight.css"><link rel="stylesheet" href="css/search.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><script src="js/jquery.js"></script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="page-top animated fadeInDown"><div class="nav"><li> <a class="current" href="/">首页</a></li><li> <a href="/archives">归档</a></li><li> <a href="/tags">标签</a></li></div><div class="information"><div class="nav_right_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)" style="display:none;"> </a></li><li><a class="fa fa-search" onclick="openWindow();"></a></li></div><div class="avatar"><img src="/images/odorajbotoj512w.png"></div></div></div><div class="sidebar animated fadeInDown"><div class="sidebar-top"><div class="logo-title"><div class="title"><img src="/images/odorajbotoj1024w.png" style="width:220px;" alt="favicon"><h3 title=""><a href="/">odorajbotoj's blog</a></h3><div class="description"><p>不要哀求, 学会进取; 若是如此, 终有所获.</p></div></div><ul class="social-links"><li><a target="_blank" rel="noopener" href="https://github.com/odorajbotoj"><i class="fa fa-github"></i></a></li><li><a href="mailto:odoraj_botoj@tom.com"><i class="fa fa-envelope"></i></a></li></ul></div></div><div class="footer"><div class="p"> <span> 全站CC-BY-SA-3.0 </span><i class="fa fa-star"></i><span> 薛子豪</span></div><div class="by_farbox"><span>Powered by </span><a href="https://hexo.io/zh-cn/" target="_blank">Hexo </a><span> & </span><span>Anatolo </span></div><div class="beian"></div></div></div><div class="main"><div class="autopagerize_page_element"><div class="content"><div class="post animated fadeInDown"><div class="post-title"><h3><a href="2023/08/04/OI%E6%95%99%E7%A8%8B-Linux%E5%85%A5%E9%97%A8/">OI教程-Linux入门</a></h3></div><div class="post-content"><div class="card"><p><h1 id="OI教程-Linux入门"><a href="#OI教程-Linux入门" class="headerlink" title="OI教程-Linux入门"></a>OI教程-Linux入门</h1><h2 id="0-什么是Linux"><a href="#0-什么是Linux" class="headerlink" title="0.什么是Linux"></a>0.什么是Linux</h2><ul>
+<li><p>Linux是Linus Torvalds在1991年创造出来的操作系统，属UNIX系。</p>
+</li>
+<li><p>狭义的Linux指Linux内核，开放一套接口供开发者调用，与硬件交互。</p>
+</li>
+<li><p>Linux可以在许多平台上运行，且功能强大。</p>
+</li>
+<li><p>NOI Linux 2基于大名鼎鼎的Ubuntu定制打包而来。具体版本为Ubuntu20.04LTS，即2020年4月发布的长期支持版，稳定性好，对老旧硬件极为友好。</p>
+</li>
+<li><p>Linux的换行符为 <code>\n</code> （换行），不同于Windows的 <code>\n\r</code> （换行回车）。</p>
+</li>
+</ul>
+<p><del>更多的请自行查阅相关资料</del></p>
+<h2 id="1-命令提示符"><a href="#1-命令提示符" class="headerlink" title="1.命令提示符"></a>1.命令提示符</h2><p>打开终端，你会发现如下字样：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">user@computer: ~ $</span><br></pre></td></tr></table></figure>
+
+<p>其中 <code>user</code> 是用户名， <code>computer</code> 是主机名， <code>~</code> 是当前所在目录，为相对 <code>$HOME</code> 的相对路径。末尾的 <code>$</code> 就是提示符了。</p>
+<p>Linux中具有最高权限的用户是 <code>root</code> 。</p>
+<h2 id="2-基本命令使用"><a href="#2-基本命令使用" class="headerlink" title="2.基本命令使用"></a>2.基本命令使用</h2><p>NOI Linux中默认使用的SHELL是BASH。</p>
+<p>在Linux的各个虚拟终端间切换的快捷键是 <code>Ctrl+Alt+Fn</code> 。</p>
+<h3 id="man"><a href="#man" class="headerlink" title="man"></a>man</h3><p>可以查看一个命令的帮助手册，如 <code>man man</code>，即为查看man命令的手册。</p>
+<p>按 <code>q</code> 退出。</p>
+<h3 id="–help"><a href="#–help" class="headerlink" title="–help"></a>–help</h3><p>常用的命令选项，大多数命令都支持，如 <code>man --help</code> 。</p>
+<p>打印帮助信息。</p>
+<h3 id="pwd"><a href="#pwd" class="headerlink" title="pwd"></a>pwd</h3><p>这个命令会显示当前所在的文件夹（绝对路径）。</p>
+<h3 id="uname"><a href="#uname" class="headerlink" title="uname"></a>uname</h3><p>可以看到当前的系统信息。不出意外的话输出应该是 <code>Linux</code> 。可以加入命令选项 <code>-a</code> 查看详细信息</p>
+<h3 id="ls"><a href="#ls" class="headerlink" title="ls"></a>ls</h3><p>这个命令的用处很大，可以看到当前目录下有那些文件与目录</p>
+<p>有以下命令选项：</p>
+<ul>
+<li><p><code>-a</code> 显示包括隐藏的目录与文件</p>
+</li>
+<li><p><code>-l</code> 列表格式（看起来更清爽，同时显示出更多信息）。</p>
+</li>
+<li><p><code>-h</code> 人类可读。注意看文件大小那里。</p>
+</li>
+</ul>
+<p>** 命令选项是可以叠加的，如 <code>ls -a -l -h</code> 等同于 <code>ls -alh</code>。 **</p>
+<p>** Linux系统严格区分大小写，但是文件和文件夹是可以同名的。 <code>ls</code> 命令的输出有多种颜色，文件与文件夹会以不同的颜色标注。 **</p>
+<h3 id="cd"><a href="#cd" class="headerlink" title="cd"></a>cd</h3><p>切换到某个目录 <code>cd &lt;目录名&gt;</code> 。</p>
+<p>如果不跟参数则回到 <code>$HOME</code> 目录。</p>
+<p>** 特别地， <code>.</code> 表示当前目录， <code>..</code> 表示上一层目录 **</p>
+<h3 id="cat"><a href="#cat" class="headerlink" title="cat"></a>cat</h3><p> 读取某个文件 <code>cat &lt;文件名&gt;</code> 。</p>
+<h3 id="mkdir"><a href="#mkdir" class="headerlink" title="mkdir"></a>mkdir</h3><p>创建新的文件夹 <code>mkdir &lt;目录名&gt;</code> 。</p>
+<h3 id="touch"><a href="#touch" class="headerlink" title="touch"></a>touch</h3><p>创建新的文件 <code>touch &lt;文件名&gt;</code> 。</p>
+<h3 id="rm"><a href="#rm" class="headerlink" title="rm"></a>rm</h3><p>删除文件或目录 <code>rm &lt;文件或目录名&gt;</code> 。若删除目录，需要 <code>-r</code> 选项表示递归删除。</p>
+<h3 id="cp"><a href="#cp" class="headerlink" title="cp"></a>cp</h3><p>拷贝文件或目录 <code>cp &lt;旧&gt; &lt;新&gt;</code> 。若拷贝目录，需要 <code>-r</code> 选项表示递归拷贝。</p>
+<h3 id="mv"><a href="#mv" class="headerlink" title="mv"></a>mv</h3><p>移动文件或目录 <code>mv &lt;旧&gt; &lt;新&gt;</code> ，一般用来重命名。没有 <code>-r</code> 选项。</p>
+<h2 id="3-vim基础操作"><a href="#3-vim基础操作" class="headerlink" title="3.vim基础操作"></a>3.vim基础操作</h2><p>vim是一款终端下的文本编辑器，功能十分强大。</p>
+<p>输入 <code>vim</code> 进入vim界面。</p>
+<p>vim有许多模式，如普通模式，插入模式，命令模式等。多按几次<code>ESC</code> ，你总能回到普通模式。</p>
+<p>普通模式下无法编辑文本，可以按 <code>:</code> 进入命令模式输入命令，也可以按 <code>i</code> ， <code>a</code> 进入插入模式。</p>
+<p>打开文件可以使用 <code>vim &lt;文件名&gt;</code> ，也可以在命令模式输入 <code>:e &lt;文件名&gt;</code> 。</p>
+<p>保存文件，在命令模式输入 <code>:w</code> 。退出则是 <code>:q</code> 。</p>
+<p>保存并退出可以是 <code>:wq</code> ， <code>ZZ</code> 或 <code>:x</code> 。</p>
+<p>若要强制退出，使用 <code>:q!</code> 。</p>
+<p>查找字符串，可以在普通模式下输入 <code>/&lt;string&gt;</code> 。</p>
+<p>定位到某一行，可以在命令模式输入 <code>:&lt;line&gt;</code> 。</p>
+<h2 id="4-g-编译器基本操作"><a href="#4-g-编译器基本操作" class="headerlink" title="4.g++编译器基本操作"></a>4.g++编译器基本操作</h2><p>g++是一款编译器，可以将您的c++代码编译为可执行文件</p>
+<p>Linux下的可执行文件没有固定扩展名，但不应该是 <code>.exe</code> ， <code>.com</code> （Windows下可执行文件）或 <code>.dll</code> （Windows下动态链接库）。</p>
+<p>Linux同样提供gdb来调试程序，此处不过多展开。</p>
+<ul>
+<li><p><code>-g</code> 生成调试信息。</p>
+</li>
+<li><p><code>-Wall</code> 生成所有警告信息。</p>
+</li>
+<li><p><code>-Werror</code> 视警告为错误。</p>
+</li>
+<li><p><code>-O2</code> 开启中级优化。<a target="_blank" rel="noopener" href="https://jyywiki.cn/OS/2023/build/lect2.ipynb">蒋炎岩老师的课程中有关于编译优化的内容</a></p>
+</li>
+<li><p><code>-c</code> 只生成不可执行的目标文件。仅激活预处理、编译和汇编。<a target="_blank" rel="noopener" href="https://blog.csdn.net/Three_dog/article/details/103688043">可以看看这篇来自CSDN的文章</a></p>
+</li>
+<li><p><code>-w</code> 关闭所有警告。不建议！</p>
+</li>
+<li><p><code>-o &lt;文件名&gt;</code> 指定输出文件名。</p>
+</li>
+<li><p><code>-std=&lt;cpp_version&gt;</code> 指定版本，常用 <code>c++11</code> 与 <code>c++14</code> 。</p>
+</li>
+<li><p><code>-static</code> 静态编译，不依赖库。</p>
+</li>
+</ul>
+<h2 id="5-执行文件"><a href="#5-执行文件" class="headerlink" title="5.执行文件"></a>5.执行文件</h2><p><code>ls -l</code> 命令会显示文件及目录的权限。格式为 <code>drwxrwxrwx</code> 。</p>
+<p>若有 <code>d</code> ，则为目录；若有 <code>x</code> ，则为可执行文件。</p>
+<p>假如现在有可执行文件 <code>a.out</code> ：</p>
+<p>其权限就可以是 <code>-rwx------</code> 。</p>
+<p>执行： <code>./a.out</code> 。</p>
+<p>从文件（1.in）中读取作为标准输入： <code>./a.out &lt; 1.in</code> 。</p>
+<p>将从标准输出内容保存到文件（1.out）： <code>./a.out &gt; 1.out</code> 。</p>
+<p>其他例子，如将ls的结果保存到文件： <code>ls &gt; lslog.txt</code> 。</p>
+<p>使用 <code>&gt;</code> 默认每次覆盖。若在原文件的末尾追加，请使用 <code>&gt;&gt;</code> 。</p>
+<p>Linux中可以使用ps列出当前在运行的进程以及其资源占用率。</p>
+<p>使用kill可以终止一个进程 <code>kill &lt; name | pid &gt;</code> 。</p>
+<p>使用time命令可以获取程序运行耗时。如 <code>time ./a.out</code> 。 <code>real</code> 最接近真实的耗时。</p>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>这篇教程旨在带您快速入门linux，</p>
+<p>有不完善之处还请指出。</p>
+<p>祝各位OIer获得理想的成绩。</p>
+</p></div></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2023-08-04</span><i class="fa fa-tag"></i><a class="tag" href="/tags/linux/" title="linux">linux </a><i class="fa fa-tag"></i><a class="tag" href="/tags/oi/" title="oi">oi </a><span class="leancloud_visitors"></span><span>大约1520个字, 5分钟4秒读完</span></div></div></div></div><div class="post animated fadeInDown"><div class="post-title"><h3><a href="2023/05/28/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E5%88%B6%E4%BD%9C%20NOI%20Linux%202%20%E8%A3%81%E5%88%87%E7%89%88/">如何优雅地制作 NOI Linux 2 裁切版</a></h3></div><div class="post-content"><div class="card"><p><h1 id="如何优雅地制作-NOI-Linux-2-裁切版"><a href="#如何优雅地制作-NOI-Linux-2-裁切版" class="headerlink" title="如何优雅地制作 NOI Linux 2 裁切版"></a>如何优雅地制作 NOI Linux 2 裁切版</h1><h2 id="导言"><a href="#导言" class="headerlink" title="导言"></a>导言</h2><p>打OI的时候被蒋炎岩博士写的JSOI系统震撼到了(膜)。老早就有这个想法了，正好蒋炎岩博士把自己的操作系统原理课分享到了哔哩哔哩上，又在知乎上贴出了自己<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/619237809">制作JSOI-Linux的历程</a>。我简单地学习了下，准备自己也搭建一个类似的系统。</p>
 <h2 id="0-准备"><a href="#0-准备" class="headerlink" title="0.准备"></a>0.准备</h2><p>我的建议是，准备一个趁手的Linux就行。我使用的是在我家老爷机上安装的NOI-Linux 2.0。</p>
 <p><em>没错，我就是这么热爱NOI</em></p>
 <h2 id="1-准备mini系统里需要的包"><a href="#1-准备mini系统里需要的包" class="headerlink" title="1.准备mini系统里需要的包"></a>1.准备mini系统里需要的包</h2><p>蒋炎岩博士已经贴心地帮我们列好了。（见他的知乎专栏）我通过解包 <code>ubuntu-noi-v2.0.iso</code> 获取了其中的一部分包，但还有一部分包找不到完全一样名称的文件。没办法，只能妥协。最终我准备的包列表如下：</p>
