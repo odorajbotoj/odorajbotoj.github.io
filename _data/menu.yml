@@ -1,0 +1,14 @@
+entries:
+  - title: Info
+    entries:
+      - title: odorajbotoj's blog
+  
+  - title: All posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: Contact
+    url: contact
