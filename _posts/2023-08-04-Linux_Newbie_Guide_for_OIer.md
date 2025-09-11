@@ -142,7 +142,7 @@ Linux同样提供gdb来调试程序，此处不过多展开。
 
 + `-Werror` 视警告为错误。
 
-+ `-O2` 开启中级优化。[蒋炎岩老师的课程中有关于编译优化的内容](https://jyywiki.cn/OS/2023/build/lect2.ipynb)
++ `-O2` 开启中级优化。[蒋炎岩老师的课程中有关于编译优化的内容](https://jyywiki.cn/OS/2023/build/lect2.ipynb.html)
 
 + `-c` 只生成不可执行的目标文件。仅激活预处理、编译和汇编。[可以看看这篇来自CSDN的文章](https://blog.csdn.net/Three_dog/article/details/103688043)
 
