@@ -1,11 +1,7 @@
 ---
+layout: post
 title: 如何优雅地制作 NOI Linux 2 裁切版
-date: 2023-05-28 22:00:00
-tags: 
-  - linux
-  - noi
-  - oi
-  - system
+category: linux
 ---
 
 # 如何优雅地制作 NOI Linux 2 裁切版
@@ -24,7 +20,7 @@ tags:
 
 蒋炎岩博士已经贴心地帮我们列好了。（见他的知乎专栏）我通过解包 `ubuntu-noi-v2.0.iso` 获取了其中的一部分包，但还有一部分包找不到完全一样名称的文件。没办法，只能妥协。最终我准备的包列表如下：
 
-```
+```text
 binutils_2.34-6ubuntu1_amd64.deb
 binutils-common_2.34-6ubuntu1_amd64.deb
 binutils-x86-64-linux-gnu_2.34-6ubuntu1_amd64.deb
@@ -50,6 +46,7 @@ libstdc++-9-dev_9.3.0-10ubuntu2_amd64.deb
 linux-libc-dev_5.4.0-148.165_amd64.deb
 zlib1g_1.2.11.dfsg-2ubuntu1_amd64.deb
 ```
+
 基本差不多，版本号没大问题就应该没啥大问题了。
 
 接下来，该考虑下如何把这些包装进系统的filesystem了。
@@ -149,7 +146,7 @@ sudo cp ../busybox/busybox-1.36.0/examples/bootfloppy/etc/* etc/ -r
 
 所以我目前的目录结构是这样的：
 
-```
+```text
 ├── busybox
 │   └── busybox-1.36.0
 │       └── (something else)
@@ -224,7 +221,7 @@ g++-9 --version
 
 输出
 
-```
+```text
 g++-9 (Ubuntu 9.3.0-10ubuntu2) 9.3.0
 Copyright (C) 2019 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
