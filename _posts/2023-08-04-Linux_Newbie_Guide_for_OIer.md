@@ -4,8 +4,6 @@ title: OI教程-Linux入门
 category: linux
 ---
 
-# OI教程-Linux入门
-
 ## 0.什么是Linux
 
 + Linux是Linus Torvalds在1991年创造出来的操作系统，属UNIX系。
