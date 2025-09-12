@@ -19,7 +19,6 @@ entries:
           show_more: true
           show_more_text: More...
           show_more_url: archive-record
-    entries:
       - title: linux
         post_list:
           category: linux
@@ -27,7 +26,6 @@ entries:
           show_more: true
           show_more_text: More...
           show_more_url: archive-linux
-    entries:
       - title: BailanInQinhuangdao
         post_list:
           category: BailanInQinhuangdao
@@ -35,7 +33,6 @@ entries:
           show_more: true
           show_more_text: More...
           show_more_url: archive-BailanInQinhuangdao
-    entries:
       - title: laser310
         post_list:
           category: laser310
