@@ -35,6 +35,14 @@ entries:
           show_more: true
           show_more_text: More...
           show_more_url: archive-BailanInQinhuangdao
+    entries:
+      - title: laser310
+        post_list:
+          category: laser310
+          limit: 5
+          show_more: true
+          show_more_text: More...
+          show_more_url: archive-laser310
 
   - title: Contact
     url: contact
