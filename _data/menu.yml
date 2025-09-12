@@ -8,7 +8,33 @@ entries:
       limit: 5
       show_more: true
       show_more_text: See archive...
-      show_more_url: archive.html
+      show_more_url: archive
+
+  - title: Posts by category
+    entries:
+      - title: record
+        post_list:
+          category: record
+          limit: 5
+          show_more: true
+          show_more_text: More...
+          show_more_url: archive-record
+    entries:
+      - title: linux
+        post_list:
+          category: linux
+          limit: 5
+          show_more: true
+          show_more_text: More...
+          show_more_url: archive-linux
+    entries:
+      - title: BailanInQinhuangdao
+        post_list:
+          category: BailanInQinhuangdao
+          limit: 5
+          show_more: true
+          show_more_text: More...
+          show_more_url: archive-BailanInQinhuangdao
 
   - title: Contact
     url: contact
