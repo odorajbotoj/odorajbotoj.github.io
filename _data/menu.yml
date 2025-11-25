@@ -12,14 +12,6 @@ entries:
 
   - title: Posts by category
     entries:
-      - title: record
-        post_list:
-          category: record
-          limit: 5
-          show_more: true
-          show_more_text: More...
-          show_more_url: archive-record
-    entries:
       - title: linux
         post_list:
           category: linux
@@ -27,6 +19,14 @@ entries:
           show_more: true
           show_more_text: More...
           show_more_url: archive-linux
+    entries:
+      - title: laser310
+        post_list:
+          category: laser310
+          limit: 5
+          show_more: true
+          show_more_text: More...
+          show_more_url: archive-laser310
     entries:
       - title: BailanInQinhuangdao
         post_list:
@@ -36,13 +36,21 @@ entries:
           show_more_text: More...
           show_more_url: archive-BailanInQinhuangdao
     entries:
-      - title: laser310
+      - title: record
         post_list:
-          category: laser310
+          category: record
           limit: 5
           show_more: true
           show_more_text: More...
-          show_more_url: archive-laser310
+          show_more_url: archive-record
+    entries:
+      - title: Poem
+        post_list:
+          category: Poem
+          limit: 5
+          show_more: true
+          show_more_text: More...
+          show_more_url: archive-Poem
 
   - title: Contact
     url: contact
