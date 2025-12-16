@@ -210,4 +210,4 @@ category: Poem
 
 烧掉我的混乱！
 
-![2024-12-16-Poem_Fire_Ritual_RiverDoorWhiteBird.jpg](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2024-12-16-Poem_Fire_Ritual_RiverDoorWhiteBird.jpg)
+![2025-12-16-Poem_Fire_Ritual_RiverDoorWhiteBird.jpg](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2025-12-16-Poem_Fire_Ritual_RiverDoorWhiteBird.jpg)
