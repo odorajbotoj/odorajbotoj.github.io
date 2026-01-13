@@ -47,6 +47,13 @@ entries:
           show_more: true
           show_more_text: More...
           show_more_url: archive-Poem
+      - title: days
+        post_list:
+          category: days
+          limit: 5
+          show_more: true
+          show_more_text: More...
+          show_more_url: archive-days
 
   - title: Contact
     url: contact
