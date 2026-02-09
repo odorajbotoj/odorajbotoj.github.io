@@ -16,15 +16,15 @@ category: AmateurRadio
 
 正极上线太粗，怕搭到负极短路，套一小截热缩管隔离。
 
-![dc](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-02-07-Battery_of_QYT-KT8900_dc2.jpg)
+![dc2](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-02-07-Battery_of_QYT-KT8900_dc2.jpg)
 
 插上电池，已经有显示了。
 
-![dc](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-02-07-Battery_of_QYT-KT8900_va.jpg)
+![va](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-02-07-Battery_of_QYT-KT8900_va.jpg)
 
 另一端接线就很简单了，确定好正负极后，跟车台电源口的线接起来。最后成品。
 
-![dc](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-02-07-Battery_of_QYT-KT8900_all.jpg)
+![all](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-02-07-Battery_of_QYT-KT8900_all.jpg)
 
 待机差不多 0.24A 左右， UHF 满功在 2.5A 左右， VHF 满功在 3.8A 左右，小电池正好带得动。
 
