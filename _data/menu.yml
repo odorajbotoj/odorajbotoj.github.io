@@ -54,6 +54,13 @@ entries:
           show_more: true
           show_more_text: More...
           show_more_url: archive-days
+      - title: AmateurRadio
+        post_list:
+          category: AmateurRadio
+          limit: 5
+          show_more: true
+          show_more_text: More...
+          show_more_url: archive-AmateurRadio
 
   - title: Contact
     url: contact
