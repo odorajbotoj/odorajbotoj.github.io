@@ -28,7 +28,7 @@ sdrpp 接收阿斯图的一大问题是, 他的 USB 模式带宽不太够 (12000
 >
 > There is no reason to have the modes go wider than actually needed because they are configured for normal usage. If you're trying to receive a complete out of spec signal it likely makes much more sense to have a dedicated demodulator.
 
-然后收获了不少 :-1: .
+然后收获了不少 :thumbsdown: .
 
 所以我们只能修改其源代码并重新编译, 以支持更高的带宽, 来接入阿斯图解调流.
 
