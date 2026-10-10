@@ -32,7 +32,10 @@ sdrpp 接收阿斯图的一大问题是, 他的 USB 模式带宽不太够 (12000
 
 所以我们只能修改其源代码并重新编译, 以支持更高的带宽, 来接入阿斯图解调流.
 
-`decoder_modules/radio/src/demodulators/radio_module.h` 中找到 `nb.init(NULL, 500.0 / 24000.0, 10.0);` 将 24000 提升到 **48000**. `decoder_modules/radio/src/demodulators/dsb.h`, `decoder_modules/radio/src/demodulators/lsb.h`, `decoder_modules/radio/src/demodulators/usb.h` 中找到 `getIFSampleRate()` 处, 将返回值 12000 提升到 **24000**. 修改完毕. 按照文档直接编译即可.
+| 路径 | 原始值 | 修改值 |
+| --- | --- | --- |
+| `decoder_modules/radio/src/demodulators/radio_module.h` | `nb.init(NULL, 500.0 / 24000.0, 10.0);` | `nb.init(NULL, 500.0 / 48000.0, 10.0);` |
+| `decoder_modules/radio/src/demodulators/dsb.h`, `decoder_modules/radio/src/demodulators/lsb.h`, `decoder_modules/radio/src/demodulators/usb.h` |  `double getIFSampleRate() { return 24000.0; }` | `double getIFSampleRate() { return 48000.0; }` |
 
 现在就可以正常使用 24000 带宽的 USB 模式了.
 
