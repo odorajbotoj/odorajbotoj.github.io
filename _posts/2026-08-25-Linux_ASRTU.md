@@ -40,7 +40,7 @@ sdrpp 接收阿斯图的一大问题是, 他的 USB 模式带宽不太够 (12000
 
 sdrpp 左侧菜单栏的组件, 可以在 **Module Manager** 中管理. 我个人习惯的配置是使用 **两个** Recorder 来分别录制 Baseband 和 Audio, 他们可以同时工作并且没有什么问题. 我还开启了 **Rigctl Server**, 用于联动 **Gpredict** 进行自动多普勒控制.
 
-![sdrpp](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-08-25-Linux-ASRTU_sdrpp.png)
+![sdrpp](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-08-25-Linux_ASRTU/2026-08-25-Linux_ASRTU_sdrpp.png)
 
 ## 2. Gpredict 自动追踪
 
@@ -52,7 +52,7 @@ sdrpp 左侧菜单栏的组件, 可以在 **Module Manager** 中管理. 我个�
 3. 添加想要跟踪的卫星. 选择对应的卫星, 可以查看下一次过境详情及后续过境简报.
 4. *Gpredict Radio Control* 可以连接 `rigctld` 进行多普勒控制, 这里可以和之前配置的 sdrpp 联动上.
 
-![gpredict](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-08-25-Linux-ASRTU_gpredict.png)
+![gpredict](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-08-25-Linux_ASRTU/2026-08-25-Linux_ASRTU_gpredict.png)
 
 ## 3. soundmodem BPSK 解调
 
@@ -68,7 +68,7 @@ soundmodem 默认使用音频输入, 开放一个 ZMQ 端口 (5555) 送出遥测
 
 笔者的系统中音频使用 *pipewire*, 所以我使用 *Helvum* 软件可以直接控制软件间的音频通路, 将 sdrpp 输出的音频接入 soundmodem.
 
-![sndmdm](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-08-25-Linux-ASRTU_sndmdm.png)
+![sndmdm](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-08-25-Linux_ASRTU/2026-08-25-Linux_ASRTU_sndmdm.png)
 
 ## 4. asrtu-sndmdm-backend 解析遥测数据
 

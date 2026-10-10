@@ -12,19 +12,19 @@ category: AmateurRadio
 
 等快递到了就可以准备组装了。我买的数显表是 5 线的，细黑线用不到，直接从接头中拆下来。细红线、白线与正供电线都是接在电池正极的，电流流经电台后通过粗红线流经数显表，最后粗黑线接到电池负极。确认好走线后，先把电池端的接头做了。
 
-![dc](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-02-07-Battery_of_QYT-KT8900_dc.jpg)
+![dc](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-02-07-Battery_of_QYT-KT8900/2026-02-07-Battery_of_QYT-KT8900_dc.jpg)
 
 正极上线太粗，怕搭到负极短路，套一小截热缩管隔离。
 
-![dc2](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-02-07-Battery_of_QYT-KT8900_dc2.jpg)
+![dc2](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-02-07-Battery_of_QYT-KT8900/2026-02-07-Battery_of_QYT-KT8900_dc2.jpg)
 
 插上电池，已经有显示了。
 
-![va](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-02-07-Battery_of_QYT-KT8900_va.jpg)
+![va](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-02-07-Battery_of_QYT-KT8900/2026-02-07-Battery_of_QYT-KT8900_va.jpg)
 
 另一端接线就很简单了，确定好正负极后，跟车台电源口的线接起来。最后成品。
 
-![all](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-02-07-Battery_of_QYT-KT8900_all.jpg)
+![all](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-02-07-Battery_of_QYT-KT8900/2026-02-07-Battery_of_QYT-KT8900_all.jpg)
 
 待机差不多 0.24A 左右， UHF 满功在 2.5A 左右， VHF 满功在 3.8A 左右，小电池正好带得动。
 

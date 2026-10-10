@@ -54,4 +54,4 @@ category: Poem
 
 聂薄墨 BJT-2026-04-06_02-50
 
-![2026-04-06-Poem_Will_You_Be_Alive_Next_Season.jpg](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-04-06-Poem_Will_You_Be_Alive_Next_Season.jpg)
+![2026-04-06-Poem_Will_You_Be_Alive_Next_Season.jpg](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-04-06-Poem_Will_You_Be_Alive_Next_Season/2026-04-06-Poem_Will_You_Be_Alive_Next_Season.jpg)

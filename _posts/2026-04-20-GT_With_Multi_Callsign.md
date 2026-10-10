@@ -20,11 +20,11 @@ category: AmateurRadio
 
 打开 TQSL 软件, 点击 *呼号证书 -> 导入呼号证书* 进行导入. ( 一般使用 `.p12` 文件 )
 
-![import](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-04-20-GT_With_Multi_Callsign_import.jpg)
+![import](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-04-20-GT_With_Multi_Callsign/2026-04-20-GT_With_Multi_Callsign_import.jpg)
 
 然后回到 *台站位置*, 建立新的位置, 并使用新导入的呼号. **注意: 名称不要和之前的重复, 即使绑定的呼号不一样**
 
-![location](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-04-20-GT_With_Multi_Callsign_location.jpg)
+![location](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-04-20-GT_With_Multi_Callsign/2026-04-20-GT_With_Multi_Callsign_location.jpg)
 
 ## 2. GridTracker2 为不同的呼号建立配置
 
@@ -34,7 +34,7 @@ category: AmateurRadio
 
 根据需求修改 *日志记录* 设置. 例如此处我只启用了备份, PSK-Report 和 LoTW. LoTW 配置中 *台站位置* 选择刚刚新建的位置. **若有重名的台站位置, 则可能无法正常工作**.
 
-![gt2cfg](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-04-20-GT_With_Multi_Callsign_gt2cfg.jpg)
+![gt2cfg](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-04-20-GT_With_Multi_Callsign/2026-04-20-GT_With_Multi_Callsign_gt2cfg.jpg)
 
 配置妥当后, 再次在 *常规* 页点击 *导出设置*, 保存一个新的配置文件. 现在你可以利用 *导入设置* 来快速切换配置文件, 实现多呼号的值机. ( 导入设置时, GridTracker2 软件会重启 )
 
