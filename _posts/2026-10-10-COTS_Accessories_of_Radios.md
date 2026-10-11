@@ -79,4 +79,12 @@ category: AmateurRadio
 
 ![pipe](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-10-10-COTS_Accessories_of_Radios/pipe.jpg)
 
+## 9. BNC 转 DC 接头
+
+BNC 转 DC 接头也是一个非常好用的小零件, 这是之前看爱好者用它自制 UHF MOXON 时了解到的. 我尝试搜索了其他射频连接器, 都没有找到类似的转接头. 我想可能是因为 BNC 接头同时运用在示波器等设备的接口上的缘故. 我用这种转接头自制了一个最大承载 1W 的 QRP 假负载, 用于进行一些测试.
+
+![BNC2DC](https://raw.githubusercontent.com/odorajbotoj/odorajbotoj.github.io/refs/heads/main/assets/img/2026-10-10-COTS_Accessories_of_Radios/BNC2DC.jpg)
+
+---
+
 使用上述部件, 就可以组合出音频线, 控制线等配件. 至于 USB 隔离, 音频隔离, 有其他的现成器件可以采用. 我还没有使用到相关器件, 故不作列举. 文章的最后, 祝各位 DIY 顺利. 73.
